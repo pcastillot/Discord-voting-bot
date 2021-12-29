@@ -43,7 +43,7 @@ async def on_message(message):
     # MUTEAR
     if msg.startswith(MUTE):
         # Comprobamos que ambos usuarios estan en el mismo canal de voz
-        if users_mismo_canal(message.author, message.mentions[0])
+        if users_mismo_canal(message.author, message.mentions[0]):
                 
             # Mandamos el mensaje, añadimos las reacciones y esperamos a que acabe la votacion
             mensaje = await message.channel.send("@everyone Solicitud para mutear a " + id)
