@@ -16,6 +16,7 @@ PREFIJO = "-"
 MUTE = PREFIJO + "mute"     # -mute
 UNMUTE = PREFIJO + "unmute" # -unmute
 KICK = PREFIJO + "kick"     # -kick
+HELP = PREFIJO + "help"     # -help
 
 
 # Funcion para comprobar si dos usuarios estan en el mismo canal de voz
@@ -39,6 +40,7 @@ async def on_message(message):
             id = "<@" + str(message.mentions[0].id) + ">"
         else:
             await message.channel.send("Debes mencionar al usuario")
+            return
         
     # MUTEAR
     if msg.startswith(MUTE):
