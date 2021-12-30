@@ -15,7 +15,7 @@ Default Available commands:
     
     -help         --> Display available commands
 
-You can change this commands and the prefix by modificating the constants at the beginning of the code.
+You can change these commands and the prefix by modificating the constants at the beginning of the code.
 
 Also you can change voting parameters such how long the voting is enabled, the minimum percentage needed to valid a request and the emojis used for the voting
 
