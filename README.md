@@ -2,7 +2,8 @@
 Bot for discord with voting system to kick or mute from voice channel
 
 To install libraries:
-pip install -r requirements.txt
+
+    pip install -r requirements.txt
 
 Default Available commands:
 
